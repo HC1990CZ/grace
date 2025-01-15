@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    position: relative;
+    height: 100vh; /* 100% de la altura de la ventana */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.section {
+    height: 100vh;
+    background: #333;
+    color: white;
+    text-align: center;
+}
